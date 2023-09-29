@@ -8,33 +8,33 @@ function App() {
         <div className="w-[90%] h-[85%] flex flex-col justify-between">
           <div className="flex flex-row w-full gap-2">
             <div className="flex flex-col w-1/3 gap-1">
-              <span>Day</span>
+              <span className="text-[#DCDCDC] text-lg">Day</span>
               <input
                 type="number"
                 name="day"
                 id="day"
                 placeholder="DD"
-                className="w-[90%] h-8 rounded-md border"
+                className="w-[90%] h-8 rounded-md border font-bold text-black"
               />
             </div>
             <div className="flex flex-col w-1/3 gap-1">
-              <span>Month</span>
+              <span className="text-[#DCDCDC] text-lg">Month</span>
               <input
                 type="number"
                 name="month"
                 id="month"
                 placeholder="MM"
-                className="w-[90%] h-8 rounded-md border"
+                className="w-[90%] h-8 rounded-md border font-bold text-black"
               />
             </div>
             <div className="flex flex-col w-1/3 gap-1">
-              <span>Year</span>
+              <span className="text-[#DCDCDC] text-lg">Year</span>
               <input
                 type="number"
                 name="year"
                 id="year"
                 placeholder="YYYY"
-                className="w-[90%] h-8 rounded-md border"
+                className="w-[90%] h-8 rounded-md border font-bold text-black"
               />
             </div>
           </div>
@@ -50,16 +50,16 @@ function App() {
           </div>
           <div className="flex flex-col w-full">
             <div className="flex flex-row gap-1">
-              <span className="text-[#854DFF]">38</span>
-              <span>years</span>
+              <span className="text-[#854DFF] text-6xl italic">38</span>
+              <span className="text-6xl italic">years</span>
             </div>
             <div className="flex flex-row gap-1">
-              <span className="text-[#854DFF]">3</span>
-              <span>months</span>
+              <span className="text-[#854DFF] text-6xl">3</span>
+              <span className="text-6xl italic">months</span>
             </div>
             <div className="flex flex-row gap-1">
-              <span className="text-[#854DFF]">26</span>
-              <span>days</span>
+              <span className="text-[#854DFF] text-6xl italic">26</span>
+              <span className="text-6xl italic">days</span>
             </div>
           </div>
         </div>
